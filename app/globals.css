@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #F8FAFC; }
+html, body { background: var(--bg); color: #1E293B; }
+
+.container { @apply max-w-[1240px] mx-auto px-4; }
+
+.btn { @apply inline-flex items-center justify-center rounded-pill h-12 px-5 font-medium transition; }
+.btn-primary { @apply bg-brand text-white hover:bg-brand-hover focus:outline-none focus:ring-2 focus:ring-blue-300; }
+.btn-secondary { @apply border border-brand text-brand hover:bg-brand-subtle; }
+.input { @apply w-full h-12 rounded-xl border border-border px-4 focus:outline-none focus:ring-2 focus:ring-blue-300; }
+.textarea { @apply w-full rounded-xl border border-border p-4 focus:outline-none focus:ring-2 focus:ring-blue-300 min-h-[140px]; }
+.card { @apply bg-white rounded-xl shadow-card p-6 transition hover:shadow-lg; }
+.section { @apply py-16 md:py-20; }
+.h1 { @apply text-4xl md:text-5xl font-bold text-ink tracking-tight; }
+.h2 { @apply text-3xl md:text-4xl font-bold text-ink; }
+.h3 { @apply text-2xl font-semibold text-ink; }
+.small { @apply text-sm text-muted; }
+.chip { @apply inline-flex items-center rounded-pill bg-brand-subtle text-brand px-3 h-7 text-sm; }
+
+.hero-bg {
+  background-image: radial-gradient(1200px 600px at 10% -10%, rgba(37,99,235,0.12), transparent),
+                    radial-gradient(800px 400px at 90% 10%, rgba(37,99,235,0.08), transparent);
+}
+.divider-gradient { background: linear-gradient(90deg, rgba(37,99,235,0.25), transparent); height: 1px; }

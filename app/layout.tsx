@@ -4,10 +4,10 @@ import Header from '../components/Header'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://theacademicnest.com'),
-  title: 'Academic Nest – Online Programming Tutor (Python, Java, Data, ML) – $35/hr | Free Intro',
+  title: 'Academic Nest - Online Programming Tutor (Python, Java, Data, ML) - $35/hr | Free Intro',
   description: 'Master programming with personalised, online 1:1 tutoring. Python, Java, Data Analytics, Web, ML/NLP. $35/hour (USD). Free 30-min intro. 10+ years’ experience.',
   openGraph: {
-    title: 'Academic Nest – Online Programming Tutor – $35/hr',
+    title: 'Academic Nest - Online Programming Tutor - $35/hr',
     description: '1:1 online tutoring in Python, Java, Data, ML/NLP. Free 30-min intro.',
     url: '/',
     siteName: 'Academic Nest',
@@ -46,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><a href="/#pricing">Pricing</a></li>
                 <li><a href="/#faq">FAQs</a></li>
                 <li><a href="/#testimonials">Testimonials</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
             <div>

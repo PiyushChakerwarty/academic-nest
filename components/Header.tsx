@@ -8,7 +8,7 @@ export default function Header() {
     { href: '/#pricing', label: 'Pricing' },
     { href: '/#testimonials', label: 'Testimonials' },
     { href: '/#faq', label: 'FAQ' },
-    { href: '/#contact', label: 'Contact' },
+    { href: '/contact', label: 'Contact' },
   ]
   return (
     <header className="border-b border-border bg-white/80 backdrop-blur sticky top-0 z-50">
